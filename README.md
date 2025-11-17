@@ -1,8 +1,7 @@
 # OrkRetro React (educacional)
 
 Passos para rodar (Windows):
-1. Abra terminal em:
-   `c:\Users\Julian\Desktop\Estudo Tecnologia\Teste IA`
+1. Abra terminal - Git Clone "URL"
 
 2. Instale dependências:
    `npm install`
