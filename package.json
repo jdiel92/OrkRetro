@@ -1,11 +1,15 @@
 {
+  "homepage": "https://jdiel92.github.io/OrkRetro/",
   "name": "orkretro",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "node server.js"
+    
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
@@ -17,6 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.3.0",
     "vite": "^5.0.0"
   }
 }
