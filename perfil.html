@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OrkRetro — Perfil</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">OrkRetro</a></div>
+    <nav class="main-nav">
+      <a href="index.html">Feed</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="comunidades.html">Comunidades</a>
+      <a href="mensagens.html">Mensagens</a>
+      <a href="about.html">Sobre</a>
+    </nav>
+  </header>
+
+  <main class="container profile-page">
+    <section class="profile-header">
+      <img class="avatar-large" src="https://picsum.photos/id/1005/200/200" alt="Avatar">
+      <div>
+        <h1 id="profile-name">Nome do Usuário</h1>
+        <p id="profile-bio">Bio curta — dev trainee / Jr</p>
+        <button id="profile-friend-btn" class="btn">Adicionar amigo</button>
+      </div>
+    </section>
+
+    <section class="profile-posts">
+      <h2>Publicações</h2>
+      <div id="profile-posts" class="posts-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>OrkRetro — projeto educacional</p>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>

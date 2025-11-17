@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OrkRetro — Mensagens</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">OrkRetro</a></div>
+    <nav class="main-nav">
+      <a href="index.html">Feed</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="comunidades.html">Comunidades</a>
+      <a href="mensagens.html">Mensagens</a>
+      <a href="about.html">Sobre</a>
+    </nav>
+  </header>
+
+  <main class="container messages-page">
+    <h2>Mensagens (simuladas)</h2>
+    <p>Este é um mock local: envie mensagens que ficam em memória/localStorage.</p>
+
+    <section class="messages">
+      <div id="message-list"></div>
+
+      <form id="message-form" class="post-form">
+        <input id="message-to" placeholder="Para (nome)" />
+        <textarea id="message-text" rows="3" placeholder="Escreva sua mensagem"></textarea>
+        <div class="form-actions"><button class="btn" type="submit">Enviar</button></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>OrkRetro — projeto educacional</p>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>
